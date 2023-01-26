@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Retouched by AI Artist - Result Image</title>
+
+    <link rel="canonical" href="https://getbootstrap.kr/docs/5.1/examples/album/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <style>
+        #fadeIn1 {
+            -webkit-animation-name: fadeIn1;
+            animation-name: fadeIn1;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        
+        #fadeIn2 {
+            -webkit-animation-name: fadeIn2;
+            animation-name: fadeIn2;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        
+        #fadeIn3 {
+            -webkit-animation-name: fadeIn3;
+            animation-name: fadeIn3;
+            -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+            -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        
+        #fadeIn4 {
+            -webkit-animation-name: fadeIn4;
+            animation-name: fadeIn4;
+            -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+            -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        
+        #fadeIn5 {
+            -webkit-animation-name: fadeIn5;
+            animation-name: fadeIn5;
+            -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+            -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        
+        #fadeIn6 {
+            -webkit-animation-name: fadeIn6;
+            animation-name: fadeIn6;
+            -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+            -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        
+        @-webkit-keyframes fadeIn1 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn1 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes fadeIn2 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn2 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes fadeIn3 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn3 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes fadeIn4 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn4 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes fadeIn5 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn5 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes fadeIn6 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn6 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <script type="text/javascript">
+        $.ajax({
+            type: "GET", // 전송방식
+            url: "/main.html", // 전송할 url
+            data: {
+                data: data
+            }, // 전송파라미터
+            dataType: "html", // 받아올 데이터타입(생략가능) html, json, xml 등 가능
+            success: function(data) { //성공시 실행할 함수
+                $(".btn btn-secondary my-2").html(data);
+                alert("성공" + data);
+            },
+            error: function(request, status, error) { // 에러발생시 실행할 함수
+                alert("code:" + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);
+            }
+        })
+    </script>
+
+    <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', function() {
+            myInput.focus()
+        })
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">AI created by learning various painting styles and image styles will change your photos into a spectacular painting style!!<br> Incorporate new artistic elements into your photos!!</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Follow on Instagram</a></li>
+                            <li><a href="#" class="text-white">Like on Facebook</a></li>
+                            <li><a href="#" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+                    <strong>Retouched by AI Artist</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Input Image</h1>
+                    <!-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> -->
+                    <div class="album py-5 bg-light">
+                        <div class="container">
+
+                            <div class="row row-cols-1 row-cols-sm-6 row-cols-md-6 g-3">
+                                <div class="col-md-6">
+                                    <div class="card shadow-sm">
+                                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg>
+
+                                        <div class="card-body">
+                                            <p class="card-text">Content image</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                </div>
+                                                <!-- <small class="text-muted">9 mins</small> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card shadow-sm">
+                                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Style Image</text></svg>
+
+                                        <div class="card-body">
+                                            <p class="card-text">Style image</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                </div>
+                                                <!-- <small class="text-muted">9 mins</small> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        <a href="#" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color:#00ACC1; border-color:#00ACC1;">Start Transfer</a>
+                        <!-- <a href="#" class="btn btn-secondary my-2">Transfer others</a></a> -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="largeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="largeModalLabel">AI is retouching your photo..</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- ... -->
+                                        <section class="py-5 text-center container">
+                                            <!-- <div class="row py-lg-5"> -->
+                                            <!-- <div class="col-lg-6 col-md-8 mx-auto"> -->
+                                            <!-- <h1 class="fw-light">Input Image</h1> -->
+                                            <!-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> -->
+                                            <!-- <div class="album py-5 bg-light"> -->
+                                            <div class="container">
+
+                                                <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-3">
+                                                    <!-- <div class="col-md-4"> -->
+                                                    <div class="card1-sm">
+                                                        <!-- <p class="placeholder-glow"> -->
+                                                        <!-- <span class="placeholder col-12"></span> -->
+                                                        <!-- </p> -->
+                                                        <svg class="bd-placeholder-img card-img-top" id="fadeIn1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg>
+
+                                                        <!-- <svg class="bd-placeholder-img card-img-top" class="placegolder-glow" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg> -->
+
+                                                        <!-- <div class="card-body"> -->
+                                                        <!-- <p class="card-text">Content image</p> -->
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <!-- <div class="btn-group"> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                        </div>
+                                                        <!-- <small class="text-muted">9 mins</small> -->
+                                                    </div>
+
+                                                    <div class="card2-sm">
+                                                        <svg class="bd-placeholder-img card-img-top" id="fadeIn2" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg>
+
+                                                        <!-- <div class="card-body"> -->
+                                                        <!-- <p class="card-text">Content image</p> -->
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <!-- <div class="btn-group"> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                        </div>
+                                                        <!-- <small class="text-muted">9 mins</small> -->
+                                                    </div>
+                                                    <div class="card3-sm">
+                                                        <svg class="bd-placeholder-img card-img-top" id="fadeIn3" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg>
+
+                                                        <!-- <div class="card-body"> -->
+                                                        <!-- <p class="card-text">Content image</p> -->
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <!-- <div class="btn-group"> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                        </div>
+                                                        <!-- <small class="text-muted">9 mins</small> -->
+                                                    </div>
+                                                    <div class="card4-sm">
+                                                        <svg class="bd-placeholder-img card-img-top" id="fadeIn4" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg>
+
+                                                        <!-- <div class="card-body"> -->
+                                                        <!-- <p class="card-text">Content image</p> -->
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <!-- <div class="btn-group"> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                        </div>
+                                                        <!-- <small class="text-muted">9 mins</small> -->
+                                                    </div>
+                                                    <div class="card5-sm">
+                                                        <svg class="bd-placeholder-img card-img-top" id="fadeIn5" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg>
+
+                                                        <!-- <div class="card-body"> -->
+                                                        <!-- <p class="card-text">Content image</p> -->
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <!-- <div class="btn-group"> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                        </div>
+                                                        <!-- <small class="text-muted">9 mins</small> -->
+                                                    </div>
+                                                    <div class="card6-sm">
+                                                        <svg class="bd-placeholder-img card-img-top" id="fadeIn6" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg>
+
+                                                        <!-- <div class="card-body"> -->
+                                                        <!-- <p class="card-text">Content image</p> -->
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <!-- <div class="btn-group"> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                        </div>
+                                                        <!-- <small class="text-muted">9 mins</small> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <!-- <div class="col-md-6"> -->
+                                    <!-- <div class="card shadow-sm"> -->
+                                    <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Style Image</text></svg> -->
+
+                                    <!-- <div class="card-body"> -->
+                                    <!-- <p class="card-text">Style image</p> -->
+                                    <!-- <div class="d-flex justify-content-between align-items-center"> -->
+                                    <!-- <div class="btn-group"> -->
+                                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                </div>
+                                <!-- <small class="text-muted">9 mins</small> -->
+                            </div>
+                        </div>
+                </div>
+                <!-- </div> -->
+                <!-- </div> -->
+                <!-- </div> -->
+                <!-- </div> -->
+                </p>
+            </div>
+            </div>
+            </section>
+
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">Result Image/Content Image</h1>
+                        <!-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> -->
+                        <div class="album py-5 bg-light">
+                            <div class="container">
+
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+                                    <div class="col">
+                                        <div class="card shadow-sm">
+                                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Result Image</text></svg>
+
+                                            <div class="card-body">
+                                                <p class="card-text">AI retouched your image successfully.</p>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                        <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                    </div>
+                                                    <!-- <small class="text-muted">9 mins</small> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow-sm">
+                                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Content Image</text></svg>
+
+                                            <div class="card-body">
+                                                <p class="card-text">Here's your original image.</p>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                                                        <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                                                    </div>
+                                                    <!-- <small class="text-muted">9 mins</small> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a download="#" class="btn btn-primary my-2" style="background-color:#00ACC1; border-color:#00ACC1;">Save them</a>
+                            <a href = "main.html" class="btn btn-secondary my-2">Transfer others</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+            <p class="mb-1"> Retouched by AI Artist &copy; Team Styler<br>Reference From &copy; Bootstrap</p>
+            <!-- Album example is &copy; Bootstrap, but please download and customize it for yourself! -->
+            <!-- <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.1/getting-started/introduction/">getting started guide</a>.</p> -->
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+</body>
+
+</html>
